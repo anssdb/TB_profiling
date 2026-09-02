@@ -1,0 +1,3407 @@
+{
+  "meta": {
+    "date_actualisation": "02/09/2026 16:18",
+    "source": "PostgreSQL + logique PBIX/Tabular",
+    "version": "8.1-interactivite-complete",
+    "nombre_pages": 7
+  },
+  "pages": {
+    "page01_couverture_collecte": {
+      "page_index": 1,
+      "page_name": "Couverture globale de la collecte des données",
+      "data": {
+        "nombre_beneficiaires": 11398,
+        "par_categorie": [
+          {
+            "categorie": "Filles/Fils",
+            "nombre": 6538,
+            "pourcentage": "57.36"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "nombre": 2511,
+            "pourcentage": "22.03"
+          },
+          {
+            "categorie": "Conjoint",
+            "nombre": 2349,
+            "pourcentage": "20.61"
+          }
+        ],
+        "par_milieu": [
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "nombre": 2292,
+            "pourcentage": "91.64"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "nombre": 209,
+            "pourcentage": "8.36"
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "nombre": 2167,
+            "pourcentage": "92.45"
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "nombre": 177,
+            "pourcentage": "7.55"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "nombre": 6066,
+            "pourcentage": "93.04"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "nombre": 454,
+            "pourcentage": "6.96"
+          }
+        ],
+        "par_genre": [
+          {
+            "categorie": "Chef de ménage",
+            "genre": "Masculin",
+            "nombre": 2347,
+            "pourcentage": "94.90"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "genre": "Féminin",
+            "nombre": 126,
+            "pourcentage": "5.10"
+          },
+          {
+            "categorie": "Conjoint",
+            "genre": "Féminin",
+            "nombre": 1917,
+            "pourcentage": "98.81"
+          },
+          {
+            "categorie": "Conjoint",
+            "genre": "Masculin",
+            "nombre": 23,
+            "pourcentage": "1.19"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "genre": "Masculin",
+            "nombre": 2671,
+            "pourcentage": "51.10"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "genre": "Féminin",
+            "nombre": 2556,
+            "pourcentage": "48.90"
+          }
+        ],
+        "par_tranche_age": [
+          {
+            "categorie": "Chef de ménage",
+            "tranche_age": "22-35",
+            "nombre": 115,
+            "pourcentage": "4.58"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "tranche_age": "36-45",
+            "nombre": 528,
+            "pourcentage": "21.03"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "tranche_age": "46-59",
+            "nombre": 1452,
+            "pourcentage": "57.83"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "tranche_age": "Plus de 60",
+            "nombre": 416,
+            "pourcentage": "16.57"
+          },
+          {
+            "categorie": "Conjoint",
+            "tranche_age": "16-21",
+            "nombre": 12,
+            "pourcentage": "0.51"
+          },
+          {
+            "categorie": "Conjoint",
+            "tranche_age": "22-35",
+            "nombre": 317,
+            "pourcentage": "13.50"
+          },
+          {
+            "categorie": "Conjoint",
+            "tranche_age": "36-45",
+            "nombre": 1014,
+            "pourcentage": "43.17"
+          },
+          {
+            "categorie": "Conjoint",
+            "tranche_age": "46-59",
+            "nombre": 956,
+            "pourcentage": "40.70"
+          },
+          {
+            "categorie": "Conjoint",
+            "tranche_age": "Plus de 60",
+            "nombre": 50,
+            "pourcentage": "2.13"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "tranche_age": "Moins de 16",
+            "nombre": 3737,
+            "pourcentage": "57.16"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "tranche_age": "16-21",
+            "nombre": 2547,
+            "pourcentage": "38.96"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "tranche_age": "22-35",
+            "nombre": 254,
+            "pourcentage": "3.88"
+          }
+        ],
+        "detail_interactif": [
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Non renseigné",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 2
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Non renseigné",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 1
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "22-35",
+            "nombre": 1
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "36-45",
+            "nombre": 2
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "46-59",
+            "nombre": 3
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "Plus de 60",
+            "nombre": 1
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 9
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 31
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "46-59",
+            "nombre": 48
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "Plus de 60",
+            "nombre": 7
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 98
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 440
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "46-59",
+            "nombre": 1272
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "Plus de 60",
+            "nombre": 358
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "36-45",
+            "nombre": 3
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "46-59",
+            "nombre": 21
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "Plus de 60",
+            "nombre": 5
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 1
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 7
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "46-59",
+            "nombre": 19
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "Plus de 60",
+            "nombre": 2
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 4
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 44
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "46-59",
+            "nombre": 89
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "Plus de 60",
+            "nombre": 41
+          },
+          {
+            "categorie": "Chef de ménage",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "Plus de 60",
+            "nombre": 2
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "22-35",
+            "nombre": 3
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "36-45",
+            "nombre": 1
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "46-59",
+            "nombre": 1
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 10
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 195
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 800
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "46-59",
+            "nombre": 771
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "Plus de 60",
+            "nombre": 34
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 7
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "46-59",
+            "nombre": 12
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "Plus de 60",
+            "nombre": 2
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "22-35",
+            "nombre": 80
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "36-45",
+            "nombre": 146
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "46-59",
+            "nombre": 99
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "Plus de 60",
+            "nombre": 11
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 1
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 25
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 37
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "46-59",
+            "nombre": 44
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 1
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "Plus de 60",
+            "nombre": 1
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "16-21",
+            "nombre": 1
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "22-35",
+            "nombre": 13
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "36-45",
+            "nombre": 23
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "46-59",
+            "nombre": 29
+          },
+          {
+            "categorie": "Conjoint",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "Plus de 60",
+            "nombre": 2
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Non renseigné",
+            "genre": "Féminin",
+            "tranche_age": "Moins de 16",
+            "nombre": 1
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Non renseigné",
+            "genre": "Masculin",
+            "tranche_age": "Moins de 16",
+            "nombre": 1
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "Moins de 16",
+            "nombre": 13
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "16-21",
+            "nombre": 3
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "Moins de 16",
+            "nombre": 1286
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 1056
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 102
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "Moins de 16",
+            "nombre": 1413
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 1030
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 106
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "Moins de 16",
+            "nombre": 734
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "16-21",
+            "nombre": 310
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "22-35",
+            "nombre": 29
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "Moins de 16",
+            "nombre": 54
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 49
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 8
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "Moins de 16",
+            "nombre": 81
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 36
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 4
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "Moins de 16",
+            "nombre": 154
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "16-21",
+            "nombre": 63
+          },
+          {
+            "categorie": "Filles/Fils",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "22-35",
+            "nombre": 5
+          }
+        ]
+      }
+    },
+    "page02_avancement_traitement_dossiers": {
+      "page_index": 2,
+      "page_name": "État d’avancement global du traitement des dossiers",
+      "data": {
+        "nombre_beneficiaires": 11398,
+        "par_statut": [
+          {
+            "statut": "Nouveau",
+            "nombre": 1757,
+            "pourcentage": "15.41"
+          },
+          {
+            "statut": "En cours de traitement",
+            "nombre": 34,
+            "pourcentage": "0.30"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "nombre": 9325,
+            "pourcentage": "81.81"
+          },
+          {
+            "statut": "En cours de suivi",
+            "nombre": 245,
+            "pourcentage": "2.15"
+          },
+          {
+            "statut": "Clôturé",
+            "nombre": 37,
+            "pourcentage": "0.32"
+          }
+        ],
+        "par_milieu": [
+          {
+            "statut": "Clôturé",
+            "milieu": "Rural",
+            "nombre": 27,
+            "pourcentage": "72.97"
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Urbain",
+            "nombre": 10,
+            "pourcentage": "27.03"
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Rural",
+            "nombre": 215,
+            "pourcentage": "88.11"
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Urbain",
+            "nombre": 29,
+            "pourcentage": "11.89"
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "nombre": 32,
+            "pourcentage": "94.12"
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Urbain",
+            "nombre": 2,
+            "pourcentage": "5.88"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "nombre": 8814,
+            "pourcentage": "94.56"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "nombre": 507,
+            "pourcentage": "5.44"
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Rural",
+            "nombre": 1437,
+            "pourcentage": "83.11"
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Urbain",
+            "nombre": 292,
+            "pourcentage": "16.89"
+          }
+        ],
+        "par_genre": [
+          {
+            "statut": "Clôturé",
+            "genre": "Féminin",
+            "nombre": 21,
+            "pourcentage": "56.76"
+          },
+          {
+            "statut": "Clôturé",
+            "genre": "Masculin",
+            "nombre": 16,
+            "pourcentage": "43.24"
+          },
+          {
+            "statut": "En cours de suivi",
+            "genre": "Masculin",
+            "nombre": 159,
+            "pourcentage": "64.90"
+          },
+          {
+            "statut": "En cours de suivi",
+            "genre": "Féminin",
+            "nombre": 86,
+            "pourcentage": "35.10"
+          },
+          {
+            "statut": "En cours de traitement",
+            "genre": "Féminin",
+            "nombre": 18,
+            "pourcentage": "52.94"
+          },
+          {
+            "statut": "En cours de traitement",
+            "genre": "Masculin",
+            "nombre": 15,
+            "pourcentage": "44.12"
+          },
+          {
+            "statut": "En cours de traitement",
+            "genre": "Non renseigné",
+            "nombre": 1,
+            "pourcentage": "2.94"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "genre": "Masculin",
+            "nombre": 4851,
+            "pourcentage": "52.02"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "genre": "Féminin",
+            "nombre": 4474,
+            "pourcentage": "47.98"
+          },
+          {
+            "statut": "Nouveau",
+            "genre": "Non renseigné",
+            "nombre": 1757,
+            "pourcentage": "100.00"
+          }
+        ],
+        "par_tranche_age": [
+          {
+            "statut": "Clôturé",
+            "tranche_age": "16-21",
+            "nombre": 20,
+            "pourcentage": "54.05"
+          },
+          {
+            "statut": "Clôturé",
+            "tranche_age": "22-35",
+            "nombre": 10,
+            "pourcentage": "27.03"
+          },
+          {
+            "statut": "Clôturé",
+            "tranche_age": "36-45",
+            "nombre": 5,
+            "pourcentage": "13.51"
+          },
+          {
+            "statut": "Clôturé",
+            "tranche_age": "46-59",
+            "nombre": 2,
+            "pourcentage": "5.41"
+          },
+          {
+            "statut": "En cours de suivi",
+            "tranche_age": "Moins de 16",
+            "nombre": 4,
+            "pourcentage": "1.63"
+          },
+          {
+            "statut": "En cours de suivi",
+            "tranche_age": "16-21",
+            "nombre": 121,
+            "pourcentage": "49.39"
+          },
+          {
+            "statut": "En cours de suivi",
+            "tranche_age": "22-35",
+            "nombre": 79,
+            "pourcentage": "32.24"
+          },
+          {
+            "statut": "En cours de suivi",
+            "tranche_age": "36-45",
+            "nombre": 37,
+            "pourcentage": "15.10"
+          },
+          {
+            "statut": "En cours de suivi",
+            "tranche_age": "46-59",
+            "nombre": 4,
+            "pourcentage": "1.63"
+          },
+          {
+            "statut": "En cours de traitement",
+            "tranche_age": "Moins de 16",
+            "nombre": 7,
+            "pourcentage": "20.59"
+          },
+          {
+            "statut": "En cours de traitement",
+            "tranche_age": "16-21",
+            "nombre": 13,
+            "pourcentage": "38.24"
+          },
+          {
+            "statut": "En cours de traitement",
+            "tranche_age": "22-35",
+            "nombre": 2,
+            "pourcentage": "5.88"
+          },
+          {
+            "statut": "En cours de traitement",
+            "tranche_age": "36-45",
+            "nombre": 5,
+            "pourcentage": "14.71"
+          },
+          {
+            "statut": "En cours de traitement",
+            "tranche_age": "46-59",
+            "nombre": 5,
+            "pourcentage": "14.71"
+          },
+          {
+            "statut": "En cours de traitement",
+            "tranche_age": "Plus de 60",
+            "nombre": 2,
+            "pourcentage": "5.88"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "tranche_age": "Moins de 16",
+            "nombre": 2825,
+            "pourcentage": "30.29"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "tranche_age": "16-21",
+            "nombre": 2028,
+            "pourcentage": "21.75"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "tranche_age": "22-35",
+            "nombre": 464,
+            "pourcentage": "4.98"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "tranche_age": "36-45",
+            "nombre": 1321,
+            "pourcentage": "14.17"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "tranche_age": "46-59",
+            "nombre": 2244,
+            "pourcentage": "24.06"
+          },
+          {
+            "statut": "En cours d'instruction",
+            "tranche_age": "Plus de 60",
+            "nombre": 443,
+            "pourcentage": "4.75"
+          },
+          {
+            "statut": "Nouveau",
+            "tranche_age": "Moins de 16",
+            "nombre": 901,
+            "pourcentage": "51.28"
+          },
+          {
+            "statut": "Nouveau",
+            "tranche_age": "16-21",
+            "nombre": 377,
+            "pourcentage": "21.46"
+          },
+          {
+            "statut": "Nouveau",
+            "tranche_age": "22-35",
+            "nombre": 131,
+            "pourcentage": "7.46"
+          },
+          {
+            "statut": "Nouveau",
+            "tranche_age": "36-45",
+            "nombre": 174,
+            "pourcentage": "9.90"
+          },
+          {
+            "statut": "Nouveau",
+            "tranche_age": "46-59",
+            "nombre": 153,
+            "pourcentage": "8.71"
+          },
+          {
+            "statut": "Nouveau",
+            "tranche_age": "Plus de 60",
+            "nombre": 21,
+            "pourcentage": "1.20"
+          }
+        ],
+        "detail_filtres": [
+          {
+            "statut": "Clôturé",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 9
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 4
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 2
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 6
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 2
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 3
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "46-59",
+            "nombre": 1
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 3
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 2
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "46-59",
+            "nombre": 1
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 2
+          },
+          {
+            "statut": "Clôturé",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 2
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Non renseigné",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 40
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 22
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 8
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "Moins de 16",
+            "nombre": 4
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 70
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 49
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 21
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "46-59",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 9
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 4
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "46-59",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 2
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 3
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 7
+          },
+          {
+            "statut": "En cours de suivi",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "46-59",
+            "nombre": 2
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "Moins de 16",
+            "nombre": 6
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 5
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 2
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 2
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "46-59",
+            "nombre": 3
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "Moins de 16",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 7
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "46-59",
+            "nombre": 2
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "Plus de 60",
+            "nombre": 2
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "36-45",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours de traitement",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Non renseigné",
+            "genre": "Féminin",
+            "tranche_age": "Moins de 16",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Non renseigné",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Non renseigné",
+            "genre": "Masculin",
+            "tranche_age": "Moins de 16",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Non renseigné",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 1
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "Moins de 16",
+            "nombre": 1280
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 1012
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 278
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 819
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "46-59",
+            "nombre": 816
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Féminin",
+            "tranche_age": "Plus de 60",
+            "nombre": 41
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "Moins de 16",
+            "nombre": 1408
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 947
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 153
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 422
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "46-59",
+            "nombre": 1280
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Rural",
+            "genre": "Masculin",
+            "tranche_age": "Plus de 60",
+            "nombre": 358
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "Moins de 16",
+            "nombre": 54
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "16-21",
+            "nombre": 38
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "22-35",
+            "nombre": 28
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "36-45",
+            "nombre": 43
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "46-59",
+            "nombre": 61
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Féminin",
+            "tranche_age": "Plus de 60",
+            "nombre": 2
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "Moins de 16",
+            "nombre": 81
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "16-21",
+            "nombre": 31
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "22-35",
+            "nombre": 4
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "36-45",
+            "nombre": 36
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "46-59",
+            "nombre": 87
+          },
+          {
+            "statut": "En cours d'instruction",
+            "milieu": "Urbain",
+            "genre": "Masculin",
+            "tranche_age": "Plus de 60",
+            "nombre": 42
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "Moins de 16",
+            "nombre": 13
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "16-21",
+            "nombre": 3
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "22-35",
+            "nombre": 4
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "36-45",
+            "nombre": 3
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "46-59",
+            "nombre": 4
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Non renseigné",
+            "genre": "Non renseigné",
+            "tranche_age": "Plus de 60",
+            "nombre": 1
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "Moins de 16",
+            "nombre": 734
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "16-21",
+            "nombre": 310
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "22-35",
+            "nombre": 109
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "36-45",
+            "nombre": 148
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "46-59",
+            "nombre": 120
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Rural",
+            "genre": "Non renseigné",
+            "tranche_age": "Plus de 60",
+            "nombre": 16
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "Moins de 16",
+            "nombre": 154
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "16-21",
+            "nombre": 64
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "22-35",
+            "nombre": 18
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "36-45",
+            "nombre": 23
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "46-59",
+            "nombre": 29
+          },
+          {
+            "statut": "Nouveau",
+            "milieu": "Urbain",
+            "genre": "Non renseigné",
+            "tranche_age": "Plus de 60",
+            "nombre": 4
+          }
+        ]
+      }
+    },
+    "page03_niveau_educatif": {
+      "page_index": 3,
+      "page_name": "Niveau Educatif",
+      "data": {
+        "repartition_niveaux_par_categorie": [
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Aucun",
+            "nombre": 1322,
+            "pourcentage": "53.46"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Primaire",
+            "nombre": 631,
+            "pourcentage": "25.52"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Collège",
+            "nombre": 166,
+            "pourcentage": "6.71"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Niveau sixième année primaire",
+            "nombre": 61,
+            "pourcentage": "2.47"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Lycée",
+            "nombre": 59,
+            "pourcentage": "2.39"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "3 ème Année Collègiale",
+            "nombre": 56,
+            "pourcentage": "2.26"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Niveau troisième année collège",
+            "nombre": 55,
+            "pourcentage": "2.22"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Sixième année primaire",
+            "nombre": 41,
+            "pourcentage": "1.66"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Niveau Bac",
+            "nombre": 39,
+            "pourcentage": "1.58"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Bac",
+            "nombre": 30,
+            "pourcentage": "1.21"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Bac + 3",
+            "nombre": 9,
+            "pourcentage": "0.36"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Bac + 2",
+            "nombre": 4,
+            "pourcentage": "0.16"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Aucun",
+            "nombre": 1527,
+            "pourcentage": "78.79"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Primaire",
+            "nombre": 270,
+            "pourcentage": "13.93"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Collège",
+            "nombre": 52,
+            "pourcentage": "2.68"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Sixième année primaire",
+            "nombre": 25,
+            "pourcentage": "1.29"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "3 ème Année Collègiale",
+            "nombre": 17,
+            "pourcentage": "0.88"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Niveau sixième année primaire",
+            "nombre": 17,
+            "pourcentage": "0.88"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Niveau Bac",
+            "nombre": 12,
+            "pourcentage": "0.62"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Niveau troisième année collège",
+            "nombre": 11,
+            "pourcentage": "0.57"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Bac + 3",
+            "nombre": 4,
+            "pourcentage": "0.21"
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Lycée",
+            "nombre": 3,
+            "pourcentage": "0.15"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Collège",
+            "nombre": 593,
+            "pourcentage": "21.85"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac",
+            "nombre": 429,
+            "pourcentage": "15.81"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Lycée",
+            "nombre": 425,
+            "pourcentage": "15.66"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau Bac",
+            "nombre": 303,
+            "pourcentage": "11.16"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "3 ème Année Collègiale",
+            "nombre": 245,
+            "pourcentage": "9.03"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Primaire",
+            "nombre": 181,
+            "pourcentage": "6.67"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 2",
+            "nombre": 175,
+            "pourcentage": "6.45"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau troisième année collège",
+            "nombre": 122,
+            "pourcentage": "4.50"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Sixième année primaire",
+            "nombre": 94,
+            "pourcentage": "3.46"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 3",
+            "nombre": 61,
+            "pourcentage": "2.25"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Aucun",
+            "nombre": 45,
+            "pourcentage": "1.66"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau sixième année primaire",
+            "nombre": 39,
+            "pourcentage": "1.44"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 5 et plus",
+            "nombre": 2,
+            "pourcentage": "0.07"
+          }
+        ],
+        "taux_scolarisation_enfants_par_tranche_age": [
+          {
+            "tranche_age": "Moins de 4",
+            "scolarises": 0,
+            "total_renseigne": 0,
+            "taux_scolarisation": null
+          },
+          {
+            "tranche_age": "4-5",
+            "scolarises": 0,
+            "total_renseigne": 0,
+            "taux_scolarisation": null
+          },
+          {
+            "tranche_age": "6-11",
+            "scolarises": 1102,
+            "total_renseigne": 1125,
+            "taux_scolarisation": "97.96"
+          },
+          {
+            "tranche_age": "12-14",
+            "scolarises": 949,
+            "total_renseigne": 1036,
+            "taux_scolarisation": "91.60"
+          },
+          {
+            "tranche_age": "15-17",
+            "scolarises": 910,
+            "total_renseigne": 1235,
+            "taux_scolarisation": "73.68"
+          },
+          {
+            "tranche_age": "Plus de 18",
+            "scolarises": 790,
+            "total_renseigne": 1569,
+            "taux_scolarisation": "50.35"
+          }
+        ],
+        "detail_interactif": [
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "3 ème Année Collègiale",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 56
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Aucun",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 1322
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Bac",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 30
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Bac + 2",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 4
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Bac + 3",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 9
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Collège",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 166
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Lycée",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 59
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Niveau Bac",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 39
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Niveau sixième année primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 61
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Niveau troisième année collège",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 55
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 38
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 631
+          },
+          {
+            "categorie": "Chef de ménage",
+            "niveau_education": "Sixième année primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 41
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "3 ème Année Collègiale",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 17
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Aucun",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 1527
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Bac + 3",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 4
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Collège",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 52
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Lycée",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 3
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Niveau Bac",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 12
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Niveau sixième année primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 17
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Niveau troisième année collège",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 11
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 411
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 270
+          },
+          {
+            "categorie": "Conjoint",
+            "niveau_education": "Sixième année primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 25
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "3 ème Année Collègiale",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 32
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "3 ème Année Collègiale",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 131
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "3 ème Année Collègiale",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 64
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "3 ème Année Collègiale",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 18
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Aucun",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 10
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Aucun",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 10
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Aucun",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 23
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Aucun",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 2
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 28
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 2
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 76
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 323
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 2",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 1
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 2",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 36
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 2",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 138
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 3",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 30
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 3",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 31
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 5 et plus",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 1
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Bac + 5 et plus",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 1
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Collège",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 140
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Collège",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 204
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Collège",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 226
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Collège",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 23
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Lycée",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 279
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Lycée",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 7
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Lycée",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 42
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Lycée",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 97
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau Bac",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 122
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau Bac",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 1
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau Bac",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 141
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau Bac",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 39
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau sixième année primaire",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 3
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau sixième année primaire",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 17
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau sixième année primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 18
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau sixième année primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 1
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau troisième année collège",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 12
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau troisième année collège",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 52
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau troisième année collège",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 49
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Niveau troisième année collège",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 9
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "Moins de 4",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 69
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "4-5",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 338
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "6-11",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 23
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "6-11",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 1102
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "6-11",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 420
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "12-14",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 87
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "12-14",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 242
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "12-14",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 949
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 255
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 19
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 68
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": false,
+            "nombre": 249
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 1
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Non renseigné",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 2
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Primaire",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 47
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Primaire",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 8
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 122
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 4
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Sixième année primaire",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 38
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Sixième année primaire",
+            "tranche_age_scolarisation": "15-17",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 4
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Sixième année primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": false,
+            "scolarisation_renseignee": true,
+            "nombre": 51
+          },
+          {
+            "categorie": "Filles/Fils",
+            "niveau_education": "Sixième année primaire",
+            "tranche_age_scolarisation": "Plus de 18",
+            "scolarise": true,
+            "scolarisation_renseignee": true,
+            "nombre": 1
+          }
+        ]
+      }
+    },
+    "page04_recherche_emploi": {
+      "page_index": 4,
+      "page_name": "Recherche d’emploi",
+      "data": {
+        "taux_recherche_emploi": [
+          {
+            "categorie": "Chef de ménage",
+            "effectif_recherche": "275",
+            "total_renseigne": "2472",
+            "taux_recherche_emploi": "11.12"
+          },
+          {
+            "categorie": "Conjoint",
+            "effectif_recherche": "15",
+            "total_renseigne": "1936",
+            "taux_recherche_emploi": "0.77"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "effectif_recherche": "206",
+            "total_renseigne": "2713",
+            "taux_recherche_emploi": "7.59"
+          },
+          {
+            "categorie": "Global",
+            "effectif_recherche": "496",
+            "total_renseigne": "7121",
+            "taux_recherche_emploi": "6.97"
+          }
+        ],
+        "activite_recherchee": [
+          {
+            "categorie": "Chef de ménage",
+            "activite_recherchee": "Emploi salarié",
+            "nombre": "143",
+            "pourcentage": "52.00"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "activite_recherchee": "entreprenariat",
+            "nombre": "81",
+            "pourcentage": "29.45"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "activite_recherchee": "auto emploi",
+            "nombre": "51",
+            "pourcentage": "18.55"
+          },
+          {
+            "categorie": "Conjoint",
+            "activite_recherchee": "auto emploi",
+            "nombre": "5",
+            "pourcentage": "33.33"
+          },
+          {
+            "categorie": "Conjoint",
+            "activite_recherchee": "Emploi salarié",
+            "nombre": "5",
+            "pourcentage": "33.33"
+          },
+          {
+            "categorie": "Conjoint",
+            "activite_recherchee": "entreprenariat",
+            "nombre": "5",
+            "pourcentage": "33.33"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "activite_recherchee": "Emploi salarié",
+            "nombre": "185",
+            "pourcentage": "89.81"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "activite_recherchee": "entreprenariat",
+            "nombre": "18",
+            "pourcentage": "8.74"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "activite_recherchee": "auto emploi",
+            "nombre": "3",
+            "pourcentage": "1.46"
+          },
+          {
+            "categorie": "Global",
+            "activite_recherchee": "Emploi salarié",
+            "nombre": "333",
+            "pourcentage": "67.14"
+          },
+          {
+            "categorie": "Global",
+            "activite_recherchee": "entreprenariat",
+            "nombre": "104",
+            "pourcentage": "20.97"
+          },
+          {
+            "categorie": "Global",
+            "activite_recherchee": "auto emploi",
+            "nombre": "59",
+            "pourcentage": "11.90"
+          }
+        ]
+      }
+    },
+    "page05_dispositifs_attribues": {
+      "page_index": 5,
+      "page_name": "Dispositifs attribués",
+      "data": {
+        "nombre_beneficiaires_avec_dispositif": 361,
+        "nombre_total_attributions": 492,
+        "beneficiaires_par_categorie": [
+          {
+            "categorie": "Chef de ménage",
+            "nombre_beneficiaires": 112
+          },
+          {
+            "categorie": "Conjoint",
+            "nombre_beneficiaires": 11
+          },
+          {
+            "categorie": "Filles/Fils",
+            "nombre_beneficiaires": 238
+          }
+        ],
+        "repartition_globale": [
+          {
+            "dispositif": "IDMAJ 2",
+            "nombre_attributions": 85,
+            "nombre_beneficiaires": 85,
+            "pourcentage": "17.28"
+          },
+          {
+            "dispositif": "IDMAJ",
+            "nombre_attributions": 77,
+            "nombre_beneficiaires": 77,
+            "pourcentage": "15.65"
+          },
+          {
+            "dispositif": "Insertion directe",
+            "nombre_attributions": 76,
+            "nombre_beneficiaires": 76,
+            "pourcentage": "15.45"
+          },
+          {
+            "dispositif": "ANAPEC – CDD/CDI",
+            "nombre_attributions": 65,
+            "nombre_beneficiaires": 65,
+            "pourcentage": "13.21"
+          },
+          {
+            "dispositif": "INDH -Plateforme des jeunes",
+            "nombre_attributions": 46,
+            "nombre_beneficiaires": 46,
+            "pourcentage": "9.35"
+          },
+          {
+            "dispositif": "CFA-IE / Niveau Qualification",
+            "nombre_attributions": 32,
+            "nombre_beneficiaires": 32,
+            "pourcentage": "6.50"
+          },
+          {
+            "dispositif": "CFA-IE / Niveau Spécialisation",
+            "nombre_attributions": 21,
+            "nombre_beneficiaires": 21,
+            "pourcentage": "4.27"
+          },
+          {
+            "dispositif": "OFPPT / FP Niveau Spécialisation",
+            "nombre_attributions": 16,
+            "nombre_beneficiaires": 16,
+            "pourcentage": "3.25"
+          },
+          {
+            "dispositif": "OFPPT/ FP Niveau Qualification",
+            "nombre_attributions": 15,
+            "nombre_beneficiaires": 15,
+            "pourcentage": "3.05"
+          },
+          {
+            "dispositif": "OFPPT/ FP Niveau Technicien Spécialisé",
+            "nombre_attributions": 11,
+            "nombre_beneficiaires": 11,
+            "pourcentage": "2.24"
+          },
+          {
+            "dispositif": "Programme d'Insertion par les Activités Économiques (PIAE)",
+            "nombre_attributions": 10,
+            "nombre_beneficiaires": 10,
+            "pourcentage": "2.03"
+          },
+          {
+            "dispositif": " INDH/ Plateforme des jeunes- Axe Employabilité",
+            "nombre_attributions": 10,
+            "nombre_beneficiaires": 10,
+            "pourcentage": "2.03"
+          },
+          {
+            "dispositif": "TAEHIL - FCE",
+            "nombre_attributions": 9,
+            "nombre_beneficiaires": 9,
+            "pourcentage": "1.83"
+          },
+          {
+            "dispositif": "CFA-IE / Niveau CAP",
+            "nombre_attributions": 9,
+            "nombre_beneficiaires": 9,
+            "pourcentage": "1.83"
+          },
+          {
+            "dispositif": "TAEHIL - FQR",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          },
+          {
+            "dispositif": "Appui à la prise en charge par les établissements d’aide sociale",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          },
+          {
+            "dispositif": "CMC/ FP Niveau Qualification",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          },
+          {
+            "dispositif": "CMC/ FP Niveau Technicien Spécialisé",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          },
+          {
+            "dispositif": "Dispositif de Réinsertion pour Ex-détenus",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          },
+          {
+            "dispositif": "Fond d’appui à la protection sociale et à la cohésion sociale",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          },
+          {
+            "dispositif": "INFITAH",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          },
+          {
+            "dispositif": "OFPPT/ FP Niveau Technicien",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          },
+          {
+            "dispositif": "TADAROOJ",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          },
+          {
+            "dispositif": "Aide sociale aux personnes en situation de handicap ",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.20"
+          }
+        ],
+        "repartition_par_categorie": [
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "IDMAJ 2",
+            "nombre_attributions": 54,
+            "nombre_beneficiaires": 54,
+            "pourcentage": "39.13"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "INDH -Plateforme des jeunes",
+            "nombre_attributions": 32,
+            "nombre_beneficiaires": 32,
+            "pourcentage": "23.19"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "ANAPEC – CDD/CDI",
+            "nombre_attributions": 12,
+            "nombre_beneficiaires": 12,
+            "pourcentage": "8.70"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "Insertion directe",
+            "nombre_attributions": 12,
+            "nombre_beneficiaires": 12,
+            "pourcentage": "8.70"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "Programme d'Insertion par les Activités Économiques (PIAE)",
+            "nombre_attributions": 9,
+            "nombre_beneficiaires": 9,
+            "pourcentage": "6.52"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": " INDH/ Plateforme des jeunes- Axe Employabilité",
+            "nombre_attributions": 6,
+            "nombre_beneficiaires": 6,
+            "pourcentage": "4.35"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "IDMAJ",
+            "nombre_attributions": 6,
+            "nombre_beneficiaires": 6,
+            "pourcentage": "4.35"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "TAEHIL - FCE",
+            "nombre_attributions": 2,
+            "nombre_beneficiaires": 2,
+            "pourcentage": "1.45"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "Fond d’appui à la protection sociale et à la cohésion sociale",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.72"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "Aide sociale aux personnes en situation de handicap ",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.72"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "Appui à la prise en charge par les établissements d’aide sociale",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.72"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "TAEHIL - FQR",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.72"
+          },
+          {
+            "categorie": "Chef de ménage",
+            "dispositif": "Dispositif de Réinsertion pour Ex-détenus",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.72"
+          },
+          {
+            "categorie": "Conjoint",
+            "dispositif": "IDMAJ 2",
+            "nombre_attributions": 6,
+            "nombre_beneficiaires": 6,
+            "pourcentage": "46.15"
+          },
+          {
+            "categorie": "Conjoint",
+            "dispositif": "INDH -Plateforme des jeunes",
+            "nombre_attributions": 4,
+            "nombre_beneficiaires": 4,
+            "pourcentage": "30.77"
+          },
+          {
+            "categorie": "Conjoint",
+            "dispositif": "Programme d'Insertion par les Activités Économiques (PIAE)",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "7.69"
+          },
+          {
+            "categorie": "Conjoint",
+            "dispositif": " INDH/ Plateforme des jeunes- Axe Employabilité",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "7.69"
+          },
+          {
+            "categorie": "Conjoint",
+            "dispositif": "INFITAH",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "7.69"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "IDMAJ",
+            "nombre_attributions": 71,
+            "nombre_beneficiaires": 71,
+            "pourcentage": "20.82"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "Insertion directe",
+            "nombre_attributions": 64,
+            "nombre_beneficiaires": 64,
+            "pourcentage": "18.77"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "ANAPEC – CDD/CDI",
+            "nombre_attributions": 53,
+            "nombre_beneficiaires": 53,
+            "pourcentage": "15.54"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "CFA-IE / Niveau Qualification",
+            "nombre_attributions": 32,
+            "nombre_beneficiaires": 32,
+            "pourcentage": "9.38"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "IDMAJ 2",
+            "nombre_attributions": 25,
+            "nombre_beneficiaires": 25,
+            "pourcentage": "7.33"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "CFA-IE / Niveau Spécialisation",
+            "nombre_attributions": 21,
+            "nombre_beneficiaires": 21,
+            "pourcentage": "6.16"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "OFPPT / FP Niveau Spécialisation",
+            "nombre_attributions": 16,
+            "nombre_beneficiaires": 16,
+            "pourcentage": "4.69"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "OFPPT/ FP Niveau Qualification",
+            "nombre_attributions": 15,
+            "nombre_beneficiaires": 15,
+            "pourcentage": "4.40"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "OFPPT/ FP Niveau Technicien Spécialisé",
+            "nombre_attributions": 11,
+            "nombre_beneficiaires": 11,
+            "pourcentage": "3.23"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "INDH -Plateforme des jeunes",
+            "nombre_attributions": 10,
+            "nombre_beneficiaires": 10,
+            "pourcentage": "2.93"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "CFA-IE / Niveau CAP",
+            "nombre_attributions": 9,
+            "nombre_beneficiaires": 9,
+            "pourcentage": "2.64"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "TAEHIL - FCE",
+            "nombre_attributions": 7,
+            "nombre_beneficiaires": 7,
+            "pourcentage": "2.05"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": " INDH/ Plateforme des jeunes- Axe Employabilité",
+            "nombre_attributions": 3,
+            "nombre_beneficiaires": 3,
+            "pourcentage": "0.88"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "TADAROOJ",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.29"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "OFPPT/ FP Niveau Technicien",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.29"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "CMC/ FP Niveau Technicien Spécialisé",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.29"
+          },
+          {
+            "categorie": "Filles/Fils",
+            "dispositif": "CMC/ FP Niveau Qualification",
+            "nombre_attributions": 1,
+            "nombre_beneficiaires": 1,
+            "pourcentage": "0.29"
+          }
+        ]
+      }
+    },
+    "page06_avancement_parcours": {
+      "page_index": 6,
+      "page_name": "Avancement des parcours",
+      "data": {
+        "par_statut": [
+          {
+            "statut": "À traiter",
+            "nombre_beneficiaires": 11034,
+            "pourcentage": "96.81"
+          },
+          {
+            "statut": "En cours de suivi",
+            "nombre_beneficiaires": 238,
+            "pourcentage": "2.09"
+          },
+          {
+            "statut": "Validé",
+            "nombre_beneficiaires": 56,
+            "pourcentage": "0.49"
+          },
+          {
+            "statut": "Clôturé",
+            "nombre_beneficiaires": 36,
+            "pourcentage": "0.32"
+          },
+          {
+            "statut": "Annulé",
+            "nombre_beneficiaires": 23,
+            "pourcentage": "0.20"
+          },
+          {
+            "statut": "Abandonné",
+            "nombre_beneficiaires": 9,
+            "pourcentage": "0.08"
+          },
+          {
+            "statut": "Retourné pour instruction",
+            "nombre_beneficiaires": 2,
+            "pourcentage": "0.02"
+          }
+        ],
+        "detail_par_categorie": [
+          {
+            "categorie": "Chef de ménage",
+            "statut": "À traiter",
+            "nombre_beneficiaires": 2397
+          },
+          {
+            "categorie": "Chef de ménage",
+            "statut": "En cours de suivi",
+            "nombre_beneficiaires": 75
+          },
+          {
+            "categorie": "Chef de ménage",
+            "statut": "Validé",
+            "nombre_beneficiaires": 15
+          },
+          {
+            "categorie": "Chef de ménage",
+            "statut": "Annulé",
+            "nombre_beneficiaires": 10
+          },
+          {
+            "categorie": "Chef de ménage",
+            "statut": "Clôturé",
+            "nombre_beneficiaires": 7
+          },
+          {
+            "categorie": "Chef de ménage",
+            "statut": "Abandonné",
+            "nombre_beneficiaires": 5
+          },
+          {
+            "categorie": "Chef de ménage",
+            "statut": "Retourné pour instruction",
+            "nombre_beneficiaires": 2
+          },
+          {
+            "categorie": "Conjoint",
+            "statut": "À traiter",
+            "nombre_beneficiaires": 2337
+          },
+          {
+            "categorie": "Conjoint",
+            "statut": "En cours de suivi",
+            "nombre_beneficiaires": 7
+          },
+          {
+            "categorie": "Conjoint",
+            "statut": "Validé",
+            "nombre_beneficiaires": 2
+          },
+          {
+            "categorie": "Conjoint",
+            "statut": "Annulé",
+            "nombre_beneficiaires": 2
+          },
+          {
+            "categorie": "Conjoint",
+            "statut": "Abandonné",
+            "nombre_beneficiaires": 1
+          },
+          {
+            "categorie": "Filles/Fils",
+            "statut": "À traiter",
+            "nombre_beneficiaires": 6300
+          },
+          {
+            "categorie": "Filles/Fils",
+            "statut": "En cours de suivi",
+            "nombre_beneficiaires": 156
+          },
+          {
+            "categorie": "Filles/Fils",
+            "statut": "Validé",
+            "nombre_beneficiaires": 39
+          },
+          {
+            "categorie": "Filles/Fils",
+            "statut": "Clôturé",
+            "nombre_beneficiaires": 29
+          },
+          {
+            "categorie": "Filles/Fils",
+            "statut": "Annulé",
+            "nombre_beneficiaires": 11
+          },
+          {
+            "categorie": "Filles/Fils",
+            "statut": "Abandonné",
+            "nombre_beneficiaires": 3
+          }
+        ]
+      }
+    },
+    "page07_segmentation_globale": {
+      "page_index": 7,
+      "page_name": "Segmentation globale",
+      "data": [
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "02_Actifs ne recherchant pas d'emploi",
+          "nombre": 918,
+          "pourcentage": "36.56"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "01_Personnes âgées",
+          "nombre": 706,
+          "pourcentage": "28.12"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "10_Chômeurs d'âge intermédiaire non diplômés",
+          "nombre": 631,
+          "pourcentage": "25.13"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "06_Actifs d'âge intermédiaire non diplômés",
+          "nombre": 112,
+          "pourcentage": "4.46"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "04_Jeunes actifs non diplômés",
+          "nombre": 45,
+          "pourcentage": "1.79"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "Non classé - Dossier de situation non renseigné",
+          "nombre": 38,
+          "pourcentage": "1.51"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "08_Jeunes chômeurs non diplômés",
+          "nombre": 37,
+          "pourcentage": "1.47"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "09_Chômeurs d'âge intermédiaire diplômés",
+          "nombre": 10,
+          "pourcentage": "0.40"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "05_Actifs d'âge intermédiaire diplômés",
+          "nombre": 6,
+          "pourcentage": "0.24"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "07_Jeunes chômeurs diplômés",
+          "nombre": 4,
+          "pourcentage": "0.16"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "03_Jeunes actifs diplômés",
+          "nombre": 3,
+          "pourcentage": "0.12"
+        },
+        {
+          "categorie": "Chef de ménage",
+          "typologie": "Non classé - Statut professionnel non reconnu",
+          "nombre": 1,
+          "pourcentage": "0.04"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "10_Chômeurs d'âge intermédiaire non diplômés",
+          "nombre": 1573,
+          "pourcentage": "66.96"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "Non classé - Situation économique non renseignée",
+          "nombre": 344,
+          "pourcentage": "14.64"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "08_Jeunes chômeurs non diplômés",
+          "nombre": 229,
+          "pourcentage": "9.75"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "01_Personnes âgées",
+          "nombre": 111,
+          "pourcentage": "4.73"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "Non classé - Dossier de situation non renseigné",
+          "nombre": 64,
+          "pourcentage": "2.72"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "02_Actifs ne recherchant pas d'emploi",
+          "nombre": 16,
+          "pourcentage": "0.68"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "Non classé - Statut professionnel non reconnu",
+          "nombre": 5,
+          "pourcentage": "0.21"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "09_Chômeurs d'âge intermédiaire diplômés",
+          "nombre": 3,
+          "pourcentage": "0.13"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "07_Jeunes chômeurs diplômés",
+          "nombre": 2,
+          "pourcentage": "0.09"
+        },
+        {
+          "categorie": "Conjoint",
+          "typologie": "06_Actifs d'âge intermédiaire non diplômés",
+          "nombre": 2,
+          "pourcentage": "0.09"
+        },
+        {
+          "categorie": "Filles/Fils",
+          "typologie": "Non immédiatement éligibles à l'insertion économique",
+          "nombre": 4883,
+          "pourcentage": "74.69"
+        },
+        {
+          "categorie": "Filles/Fils",
+          "typologie": "Jeunes peu qualifiés (plus de 18 ans)",
+          "nombre": 617,
+          "pourcentage": "9.44"
+        },
+        {
+          "categorie": "Filles/Fils",
+          "typologie": "Jeunes déscolarisés (15-17 ans)",
+          "nombre": 580,
+          "pourcentage": "8.87"
+        },
+        {
+          "categorie": "Filles/Fils",
+          "typologie": "Niveau d'éducation non renseigné",
+          "nombre": 250,
+          "pourcentage": "3.82"
+        },
+        {
+          "categorie": "Filles/Fils",
+          "typologie": "Jeunes qualifiés (plus de 18 ans)",
+          "nombre": 208,
+          "pourcentage": "3.18"
+        }
+      ]
+    }
+  },
+  "diagnostic": []
+}
